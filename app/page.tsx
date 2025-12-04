@@ -320,8 +320,8 @@ export default function Page() {
               <span className="terminal-cmd">cat contact.txt</span>
             </div>
             <div className="terminal-output">
-              Email: <a href="mailto:renan@d1f.com">renan@d1f.com</a><br />
-              Phone: <a href="tel:+5511999999999">+55 11 99999-9999</a>
+              Email: <a href="mailto:info@d1fmarketing.com">info@d1fmarketing.com</a><br />
+              Phone: <a href="tel:+12096278188">+1 209 627 8188</a>
             </div>
 
             <div className="terminal-line">
