@@ -11,8 +11,8 @@ export default function Page() {
           </a>
           <nav className="header-nav">
             <a href="#" className="nav-link active">Home</a>
-            <a href="#scale" className="nav-link">Capabilities</a>
-            <a href="#blueprints" className="nav-link">Examples</a>
+            <a href="#scale" className="nav-link">Scale</a>
+            <a href="#blueprints" className="nav-link">Blueprints</a>
             <a href="#optimization" className="nav-link">Process</a>
             <a href="#stack" className="nav-link">Tech</a>
             <a href="#contact" className="nav-link">Contact</a>
@@ -61,12 +61,12 @@ export default function Page() {
 
       {/* HOW WE SCALE - Hexagonal Grid */}
       <section id="scale" className="hex-section">
-        <div className="text-center mb-16">
-          <h2 className="section-heading text-4xl font-bold mb-4">How We Scale</h2>
-          <p className="section-sub text-xl text-[var(--text-secondary)] max-w-2xl mx-auto">
+        <header className="section-header">
+          <h2 className="section-heading">How We Scale</h2>
+          <p className="section-sub">
             The core engines that power D1F&apos;s marketing workflow.
           </p>
-        </div>
+        </header>
 
         <div className="hex-grid">
           {/* Row 1 - 2 hexagons */}
@@ -109,12 +109,12 @@ export default function Page() {
 
       {/* OPERATIONAL BLUEPRINTS (formerly Artifacts) */}
       <section id="blueprints" className="section-container border-t border-[var(--border-subtle)]">
-        <div className="text-center mb-16">
-          <h2 className="section-heading text-4xl font-bold mb-4">Operational Blueprints</h2>
-          <p className="section-sub text-xl text-[var(--text-secondary)] max-w-2xl mx-auto">
+        <header className="section-header">
+          <h2 className="section-heading">Operational Blueprints</h2>
+          <p className="section-sub">
             Real internal assets that show how the systems actually run.
           </p>
-        </div>
+        </header>
         <div className="blueprints-grid">
           {/* Blueprint 1 - Workflow */}
           <div className="blueprint-card group">
@@ -159,12 +159,12 @@ export default function Page() {
 
       {/* CONTINUOUS OPTIMIZATION CYCLE */}
       <section id="optimization" className="section-container border-t border-[var(--border-subtle)]">
-        <div className="text-center mb-16">
-          <h2 className="section-heading text-4xl font-bold mb-4">Continuous Optimization Cycle</h2>
-          <p className="section-sub text-xl text-[var(--text-secondary)] max-w-2xl mx-auto">
+        <header className="section-header">
+          <h2 className="section-heading">Continuous Optimization Cycle</h2>
+          <p className="section-sub">
             The iterative process that compounds performance gains over time.
           </p>
-        </div>
+        </header>
         <div className="cycle-container">
           <div className="cycle-step">
             <div className="step-circle">
@@ -202,12 +202,12 @@ export default function Page() {
 
       {/* AI GOVERNANCE & SAFETY */}
       <section id="governance" className="section-container border-t border-[var(--border-subtle)]">
-        <div className="text-center mb-16">
-          <h2 className="section-heading text-4xl font-bold mb-4">AI Governance &amp; Safety</h2>
-          <p className="section-sub text-xl text-[var(--text-secondary)] max-w-2xl mx-auto">
+        <header className="section-header">
+          <h2 className="section-heading">AI Governance &amp; Safety</h2>
+          <p className="section-sub">
             Guardrails for deploying autonomous systems responsibly.
           </p>
-        </div>
+        </header>
         <div className="governance-grid">
           <div className="governance-card">
             <h3 className="governance-title">Minimal Data Exposure</h3>
@@ -230,12 +230,12 @@ export default function Page() {
 
       {/* INFRASTRUCTURE STACK */}
       <section id="stack" className="section-container border-t border-[var(--border-subtle)]">
-        <div className="text-center mb-16">
-          <h2 className="section-heading text-4xl font-bold mb-4">Infrastructure Stack</h2>
-          <p className="section-sub text-xl text-[var(--text-secondary)] max-w-2xl mx-auto">
+        <header className="section-header">
+          <h2 className="section-heading">Infrastructure Stack</h2>
+          <p className="section-sub">
             The integrated technology layer powering D1F.
           </p>
-        </div>
+        </header>
         <div className="stack-grid">
           <div className="stack-card">
             <h3 className="stack-title">Models</h3>
@@ -336,8 +336,8 @@ export default function Page() {
         </div>
 
         <nav className="footer-nav">
-          <a href="#scale" className="footer-link">Capabilities</a>
-          <a href="#blueprints" className="footer-link">Examples</a>
+          <a href="#scale" className="footer-link">Scale</a>
+          <a href="#blueprints" className="footer-link">Blueprints</a>
           <a href="#optimization" className="footer-link">Process</a>
           <a href="#stack" className="footer-link">Tech</a>
         </nav>
