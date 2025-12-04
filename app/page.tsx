@@ -15,6 +15,7 @@ export default function Page() {
             <a href="#blueprints" className="nav-link">Blueprints</a>
             <a href="#optimization" className="nav-link">Process</a>
             <a href="#stack" className="nav-link">Tech</a>
+            <a href="#about" className="nav-link">About</a>
             <a href="#contact" className="nav-link">Contact</a>
           </nav>
         </div>
@@ -300,6 +301,55 @@ export default function Page() {
         </div>
       </section>
 
+      {/* ABOUT SECTION */}
+      <section id="about" className="section-container border-t border-[var(--border-subtle)]">
+        <div className="about-content">
+          {/* About D1F */}
+          <div className="about-block">
+            <h3 className="about-subtitle">About D1F</h3>
+            <p>
+              D1F stands for &quot;Daria um Filme&quot; — Portuguese for &quot;It would make a movie.&quot;
+              It&apos;s a phrase you hear among immigrants whose lives have taken so many unexpected turns,
+              faced so many challenges, and achieved things they never imagined, that their story could fill a screenplay.
+            </p>
+            <p>
+              This isn&apos;t just a brand name. It&apos;s a philosophy: behind every business is a story worth documenting,
+              and behind every system is the thinking that made it possible.
+            </p>
+          </div>
+
+          {/* Photo Placeholder */}
+          <div className="about-photo-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor" className="placeholder-icon">
+              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+            </svg>
+          </div>
+
+          {/* About Renan */}
+          <div className="about-block">
+            <h3 className="about-subtitle">About Renan</h3>
+            <p>
+              I started studying IT at 17 in Brazil. What began as curiosity about how systems work
+              became a foundation I&apos;d carry across countries and careers.
+            </p>
+            <p>
+              Over the years, I&apos;ve lived in Brazil, Italy, the UK, and now the US — each move adding
+              new perspectives, new challenges, and new ways of thinking about problems.
+              The constant through all of it: a drive to build things that work.
+            </p>
+            <p>
+              Today, I work at the intersection of digital marketing, automation, and artificial intelligence.
+              My background in IT gave me the technical lens; years of hands-on experience gave me the practical one.
+              Now I design the internal engines that power D1F&apos;s operations — systems that turn complexity into clarity
+              and manual work into automated workflows.
+            </p>
+            <p className="about-quote">
+              &quot;I believe the best marketing isn&apos;t just creative. It&apos;s intelligent.&quot;
+            </p>
+          </div>
+        </div>
+      </section>
+
       <footer id="contact" className="site-footer">
         <div className="terminal-card">
           <div className="terminal-header">
@@ -340,6 +390,7 @@ export default function Page() {
           <a href="#blueprints" className="footer-link">Blueprints</a>
           <a href="#optimization" className="footer-link">Process</a>
           <a href="#stack" className="footer-link">Tech</a>
+          <a href="#about" className="footer-link">About</a>
         </nav>
         <p className="footer-copy">&copy; 2024 D1F. All rights reserved.</p>
       </footer>
