@@ -721,12 +721,12 @@ body {
 
   /* Título proporcional com gradiente mantido */
   .hero-title {
-    font-size: clamp(26px, 7vw, 38px);
+    font-size: clamp(32px, 8vw, 44px);
   }
 
   /* Sub-headline adaptada - JUNTO da headline */
   .hero-sub {
-    font-size: clamp(13px, 3.5vw, 16px);
+    font-size: clamp(15px, 4vw, 18px);
     max-width: 100%;
     padding: 0 12px;
     text-align: center;
@@ -742,13 +742,13 @@ body {
   }
 
   .tag-pill {
-    font-size: 10px;
-    padding: 5px 12px;
+    font-size: 12px;
+    padding: 6px 14px;
   }
 
   .hero-cta {
-    padding: 10px 24px;
-    font-size: 13px;
+    padding: 12px 28px;
+    font-size: 15px;
     margin-top: 12px;
   }
 }
@@ -773,21 +773,21 @@ body {
   }
 
   .hero-title {
-    font-size: clamp(22px, 6vw, 30px);
+    font-size: clamp(28px, 7.5vw, 36px);
   }
 
   .hero-sub {
-    font-size: clamp(12px, 3vw, 14px);
+    font-size: clamp(14px, 3.5vw, 16px);
   }
 
   .tag-pill {
-    font-size: 9px;
-    padding: 4px 10px;
+    font-size: 11px;
+    padding: 5px 12px;
   }
 
   .hero-cta {
-    padding: 8px 20px;
-    font-size: 12px;
+    padding: 10px 24px;
+    font-size: 14px;
     margin-top: 10px;
   }
 }
