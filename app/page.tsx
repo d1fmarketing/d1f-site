@@ -321,7 +321,7 @@ export default function Page() {
             </div>
             <div className="terminal-output">
               Email: <a href="mailto:info@d1fmarketing.com">info@d1fmarketing.com</a><br />
-              Phone: <a href="tel:+12096278188">+1 209 627 8188</a>
+              Phone: <a href="tel:+15104470929">+1 510 447 0929</a>
             </div>
 
             <div className="terminal-line">
