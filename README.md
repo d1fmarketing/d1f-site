@@ -90,5 +90,36 @@ The text content below has been approved and is considered **FINAL**. Any future
 
 ### Footer
 
-**Text:** D1F — Autonomous Growth Studio.
-**Owner:** Owner: Renan • <renan@d1f.com>
+**Text:** D1F — Marketing & AI Automation
+**Contact:** info@d1fmarketing.com • +1 510 447 0929
+
+---
+
+## Technical Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **UI**: React 18 + TypeScript + Tailwind CSS
+- **Hosting**: Vercel (auto-deploy from GitHub)
+- **Image Generation**: Google Gemini 3 Pro Image Preview API
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+## URLs
+
+- **Production**: https://d1f-site.vercel.app
+- **GitHub**: https://github.com/d1fmarketing/d1f-site
+
+## Image Generation
+
+Stack icons are generated using **Google Gemini 3 Pro Image Preview**:
+
+```bash
+GOOGLE_API_KEY=your_key node generate-stack-icons.js
+```
+
+Model: `gemini-3-pro-image-preview`
