@@ -1741,7 +1741,7 @@ body {
 .about-block p {
   font-size: 18px;
   line-height: 1.8;
-  color: var(--text-secondary);
+  color: #d0d0d0;
   margin-bottom: 16px;
 }
 
