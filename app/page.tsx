@@ -7,7 +7,7 @@ export default function Page() {
       <header className="site-header">
         <div className="header-content">
           <a href="#" className="header-logo">
-            <Image src="/logo.png" alt="D1F" width={60} height={24} />
+            <Image src="/logo.png" alt="D1F" width={90} height={36} />
           </a>
           <nav className="header-nav">
             <a href="#" className="nav-link active">Home</a>
