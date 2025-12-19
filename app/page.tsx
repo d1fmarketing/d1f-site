@@ -158,6 +158,34 @@ export default function Page() {
         </div>
       </section>
 
+      {/* PERFORMANCE OBSERVABILITY */}
+      <section id="observability" className="section-container border-t border-[var(--border-subtle)]">
+        <header className="section-header">
+          <h2 className="section-heading">Performance Observability</h2>
+          <p className="section-sub">
+            Real-time dashboards tracking creative velocity and campaign efficiency.
+          </p>
+        </header>
+        <div className="metrics-grid">
+          <div className="metric-card">
+            <span className="metric-value">94%</span>
+            <span className="metric-label">Automation Throughput</span>
+            <div className="metric-bar"></div>
+          </div>
+          <div className="metric-card">
+            <span className="metric-value">4.2x</span>
+            <span className="metric-label">Testing Velocity</span>
+            <div className="metric-bar"></div>
+          </div>
+          <div className="metric-card">
+            <span className="metric-value">0ms</span>
+            <span className="metric-label">Operational Latency</span>
+            <div className="metric-bar"></div>
+          </div>
+        </div>
+      </section>
+
+
       {/* CONTINUOUS OPTIMIZATION CYCLE */}
       <section id="optimization" className="section-container border-t border-[var(--border-subtle)]">
         <header className="section-header">
@@ -239,67 +267,82 @@ export default function Page() {
         </header>
         <div className="stack-grid">
           <div className="stack-card">
-            <h3 className="stack-title">Models</h3>
+            <h3 className="stack-title">Foundation Models</h3>
             <ul className="stack-list">
               <li className="stack-item">
                 <img src="/icons/stack/openai.png" alt="" className="stack-icon" />
-                <span>OpenAI</span>
+                <span>OpenAI (GPT-4o)</span>
               </li>
               <li className="stack-item">
                 <img src="/icons/stack/anthropic.png" alt="" className="stack-icon" />
-                <span>Anthropic</span>
+                <span>Anthropic (Claude 3.5 Sonnet)</span>
               </li>
               <li className="stack-item">
                 <img src="/icons/stack/google.png" alt="" className="stack-icon" />
-                <span>Google</span>
+                <span>Google (Gemini 1.5 Pro)</span>
               </li>
             </ul>
           </div>
           <div className="stack-card">
-            <h3 className="stack-title">Automation</h3>
+            <h3 className="stack-title">Orchestration</h3>
             <ul className="stack-list">
               <li className="stack-item">
                 <img src="/icons/stack/make.png" alt="" className="stack-icon" />
-                <span>Make</span>
-              </li>
-              <li className="stack-item">
-                <img src="/icons/stack/zapier.png" alt="" className="stack-icon" />
-                <span>Zapier</span>
+                <span>Make / Zapier</span>
               </li>
               <li className="stack-item">
                 <img src="/icons/stack/webhooks.png" alt="" className="stack-icon" />
-                <span>Webhooks</span>
+                <span>Custom Webhooks</span>
+              </li>
+              <li className="stack-item">
+                <svg className="stack-icon p-1.5 bg-white/5 rounded-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M16 18L22 12L16 6M8 6L2 12L8 18" />
+                </svg>
+                <span>Python / Node.js Scripts</span>
               </li>
             </ul>
           </div>
           <div className="stack-card">
-            <h3 className="stack-title">Marketing</h3>
+            <h3 className="stack-title">Growth & Analytics</h3>
             <ul className="stack-list">
               <li className="stack-item">
                 <img src="/icons/stack/meta.png" alt="" className="stack-icon" />
-                <span>Meta Ads</span>
+                <span>Meta Ads Manager</span>
               </li>
               <li className="stack-item">
                 <img src="/icons/stack/analytics.png" alt="" className="stack-icon" />
-                <span>Analytics</span>
+                <span>Google Analytics 4</span>
+              </li>
+              <li className="stack-item">
+                <svg className="stack-icon p-1.5 bg-white/5 rounded-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+                <span>Shopify / CRM</span>
               </li>
             </ul>
           </div>
           <div className="stack-card">
-            <h3 className="stack-title">Docs</h3>
+            <h3 className="stack-title">Knowledge Base</h3>
             <ul className="stack-list">
               <li className="stack-item">
                 <img src="/icons/stack/playbooks.png" alt="" className="stack-icon" />
-                <span>Playbooks</span>
+                <span>Operational Playbooks</span>
               </li>
               <li className="stack-item">
                 <img src="/icons/stack/specs.png" alt="" className="stack-icon" />
-                <span>Specs</span>
+                <span>Agent Specifications</span>
+              </li>
+              <li className="stack-item">
+                <svg className="stack-icon p-1.5 bg-white/5 rounded-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.168.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+                <span>SOPs</span>
               </li>
             </ul>
           </div>
         </div>
       </section>
+
 
       {/* ABOUT SECTION */}
       <section id="about" className="section-container border-t border-[var(--border-subtle)]">
